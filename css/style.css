@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  color: white;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  background-color: #674baf;
+  background-image: url("../images/bg-mobile.svg");
+  background-size: auto;
+  background-repeat: no-repeat; }
+
+.container {
+  max-width: 450px;
+  width: 82%;
+  margin-bottom: 1.5rem; }
+
+.content__logo {
+  width: 13rem;
+  margin-top: 3rem; }
+
+.content__box {
+  text-align: center;
+  margin: 5rem 0; }
+
+.content__picture {
+  width: 100%; }
+
+.content__text-box {
+  margin-top: 5rem; }
+
+.content__title {
+  font-size: 2.4rem; }
+
+.content__description {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  opacity: 0.7;
+  line-height: 2.4rem;
+  font-family: "Open Sans", sans-serif; }
+
+.content__button {
+  padding: 1.3rem 7.6rem;
+  border-radius: 3rem;
+  border: none;
+  color: #674baf;
+  margin-top: 2.5rem;
+  font-size: 1.2rem; }
+
+.content__social-box {
+  width: 100%; }
+
+.content__ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%; }
+
+.content__li {
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: all 0.2s; }
+  .content__li:hover {
+    cursor: pointer;
+    border: 1px solid #e882e8; }
+    .content__li:hover .content__svg {
+      fill: #e882e8; }
+
+.content__link {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.content__svg {
+  fill: white;
+  width: 1.2rem;
+  text-align: center;
+  transition: all 0.2s; }
+
+.attribution {
+  width: 100%;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 5rem; }
+  .attribution__link:link, .attribution__link:visited {
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.2s; }
+  .attribution__link:hover, .attribution__link:active {
+    color: #e882e8; }

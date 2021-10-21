@@ -1,0 +1,33 @@
+$color-primary: hsl(257, 40%, 49%);
+$color-primary--light: hsl(300, 69%, 71%);
+$color-white: hsl(0, 0%, 100%);
+
+$font-primary: "Poppins", sans-serif;
+$font-secondary: "Open Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-white;
+  font-size: 1.6rem;
+  font-family: $font-primary;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  background-color: $color-primary;
+  background-image: url("../images/bg-mobile.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
