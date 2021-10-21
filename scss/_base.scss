@@ -30,4 +30,7 @@ body {
   background-image: url("../images/bg-mobile.svg");
   background-size: auto;
   background-repeat: no-repeat;
+  @media (min-width: 810px) {
+    background-size: contain;
+  }
 }

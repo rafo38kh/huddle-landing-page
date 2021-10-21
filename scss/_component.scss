@@ -11,6 +11,9 @@
 
   &__picture {
     width: 100%;
+    @media (min-width: 810px) {
+      //   width: 90%;
+    }
   }
 
   &__text-box {
@@ -19,14 +22,22 @@
 
   &__title {
     font-size: 2.4rem;
+    @media (min-width: 810px) {
+      font-size: 4rem;
+    }
   }
 
   &__description {
     margin-top: 1.5rem;
     font-size: 1.6rem;
-    opacity: 0.7;
+    opacity: 0.8;
     line-height: 2.4rem;
     font-family: $font-secondary;
+    @media (min-width: 810px) {
+      font-size: 2rem;
+      line-height: 2.8rem;
+      margin-top: 3rem;
+    }
   }
 
   &__button {
@@ -36,10 +47,22 @@
     color: $color-primary;
     margin-top: 2.5rem;
     font-size: 1.2rem;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px;
+    &:hover {
+      cursor: pointer;
+      color: $color-white;
+      background-color: $color-primary--light;
+      font-size: 1.22rem;
+    }
+    @media (min-width: 810px) {
+      margin-top: 4rem;
+    }
   }
 
   &__social-box {
     width: 100%;
+    margin-bottom: 1rem;
   }
 
   &__ul {
