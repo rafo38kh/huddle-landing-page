@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-scss-bem-and-css-flexbox-WUT_ACAzg](https://www.frontendmentor.io/solutions/huddle-landing-page-with-scss-bem-and-css-flexbox-WUT_ACAzg)
 - Live Site URL: [https://rafo38kh.github.io/huddle-landing-page/](https://rafo38kh.github.io/huddle-landing-page/)
 
 ## My process
